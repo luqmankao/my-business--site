@@ -1,0 +1,132 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lab(96.52% 3.01 1.06);
+    margin: 20px;
+    color:black
+}
+
+hi {
+    color: #2c3e2c;
+    text-align: center;
+}
+  ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  li {
+    background: #0a0a0a;
+    margin: 10px;
+    padding:15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+    
+  }
+  button{
+    background-color: #3498db;
+    color:white;
+    padding: 8px 12px;
+    border:none;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+   
+  }
+  button{
+    background-color: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border: none ;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #298029;
+  }
+   form {
+        background-color :rgb(7, 7, 7);
+        padding:20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+        max-width: 400px;
+        margin: 30px;
+             
+       }
+       form input,
+       form select,
+       form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+       }
+       form button{
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      
+       }
+       form button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+       }
+       form button{
+        width: 100px;
+        padding: 10px;
+        background-color: #27ea60;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+
+       }
+       form button:hover{
+        background-color: #219150;
+       }
+       img {
+              display: block;
+              margin: 20px auto;
+              border-radius: 12px;
+              box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4);  /* 0.4 = 40% black overlay */
+  z-index: -1;
+}
+.section {
+  background-color: rgba(255, 255, 255, 0.8);  /* light background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: black; /* if you use white background */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('bakery\ shop.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+  color: white; /* Makes text readable if image is dark */
+}
+
+
+
+
+
+
+
